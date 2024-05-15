@@ -25,7 +25,7 @@ button{
 }
 
 @media screen and (max-width: 768px){
-    header{
-        font-size: 1rem;
+    header p{
+        font-size: .9rem;
     }
 }
