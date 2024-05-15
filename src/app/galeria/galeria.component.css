@@ -45,11 +45,19 @@ video{
         justify-content: center;
     }
 
-    /*button{
+    div{
+        width: 19rem;
+    }
+
+    img{
+        width: 19rem;
+    }
+
+    button{
         height: 1.7rem;
     }
 
     #btncrea{
         font-size: .8rem;
-    }*/
+    }
 }
