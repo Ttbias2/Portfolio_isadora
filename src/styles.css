@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: 'perso';
+    src: url(./assets/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'perso';
+    background-color: rgb(255, 255, 255);;
+}
+
+button{
+    font-family: 'perso';
+    cursor: pointer;
+    border: 1;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+}

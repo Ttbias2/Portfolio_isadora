@@ -1,0 +1,25 @@
+header{
+    background-color: #f1dcdc;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+header p{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+header div{
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+
+button{
+    margin-right: 1rem;
+    font-size: 1rem;
+}

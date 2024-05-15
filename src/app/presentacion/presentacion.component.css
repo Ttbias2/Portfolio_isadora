@@ -1,0 +1,41 @@
+#contenedor{
+    display: flex;
+    margin: 7rem;
+    padding: 1rem;
+    background-color: #f1dcdc;;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 30rem;
+    margin-right: 1rem;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+p{
+    font-size: 2.9rem;
+}
+
+@media screen and (max-width: 1500px) {
+
+    #contenedor{
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    img{
+        width: 20rem;
+    }
+
+    p{
+       font-size: 1.3rem;
+    }
+}

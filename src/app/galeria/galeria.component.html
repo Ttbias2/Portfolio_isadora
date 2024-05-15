@@ -1,0 +1,102 @@
+<header>
+  <button (click)="mostrar = 2">Producciones</button>
+  <button (click)="mostrar = 3" id="btncrea">Creacion de contenido</button>
+  <button (click)="mostrar = 4">Desfiles</button>
+</header>
+
+<section>
+
+  @if(mostrar==1){
+
+  }
+
+  @if(mostrar==2){
+  <div>
+    <img src="../../assets/producciones/producciones1.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones2.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones3.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones8.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones4.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones5.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones6.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/producciones/producciones7.png" alt="">
+  </div>
+  <div>
+    <img src="../../assets/producciones/producciones9.png" alt="">
+  </div>
+  }
+
+  @if(mostrar==3){
+  <div>
+    <img src="../../assets/marcas/marcas2.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas1.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas3.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas8.png" alt="">
+  </div>
+
+  <div class="video">
+    <video controls>
+      <source src="../../assets/videos/video1.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas5.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas6.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas7.png" alt="">
+  </div>
+
+  <div>
+    <img src="../../assets/marcas/marcas4.png" alt="">
+  </div>
+
+  <div class="video">
+    <video controls>
+      <source src="../../assets/videos/video2.mp4" type="video/mp4">
+    </video>
+  </div>
+  }
+
+  @if(mostrar==4){
+  <div>
+    <img src="../../assets/desfiles/desfiles1.png" alt="">
+  </div>
+  }
+
+</section>
