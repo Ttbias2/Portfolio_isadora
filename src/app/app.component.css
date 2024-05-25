@@ -24,8 +24,21 @@ button{
     font-size: 1rem;
 }
 
-@media screen and (max-width: 768px){
+@media (min-width: 401px) and (max-width: 768px){
     header p{
         font-size: .9rem;
+    }
+
+    button{
+        font-size: .9rem;;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header p{
+        font-size: .7rem;
+    }
+    button{
+        font-size: .7rem;;
     }
 }
