@@ -42,4 +42,8 @@ a p {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
+    a p{
+        font-size: 3rem;
+    }
 }
