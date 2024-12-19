@@ -14,7 +14,6 @@ header p{
 
 header div{
     margin-right: 3rem;
-    margin-left: 1rem;
     display: flex;
     justify-content: space-between;
     width: 15rem;
@@ -23,23 +22,4 @@ header div{
 button{
     margin-right: 1rem;
     font-size: 1rem;
-}
-
-@media (min-width: 401px) and (max-width: 768px){
-    header p{
-        font-size: .9rem;
-    }
-
-    button{
-        font-size: .9rem;;
-    }
-}
-
-@media screen and (max-width: 400px){
-    header p{
-        font-size: .75rem;
-    }
-    button{
-        font-size: .75rem;;
-    }
 }
